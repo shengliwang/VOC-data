@@ -3,6 +3,8 @@
 ### note
 # 本脚本暂时没有实现一些错误判断。待优化 
 
+pushd /home/hou/vicking/VOC-data
+
 # 检查 ko 是否加载 
 lsmod | grep sensor &> /dev/null
 if [ $? != 0 ]
