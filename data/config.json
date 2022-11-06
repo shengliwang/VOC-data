@@ -1,0 +1,31 @@
+{
+    "label": "3#217寝室检测 ",
+    "dataYNum": 2,
+    "yUnit": "ppb or ppm",
+    "descriptions": [
+        "CO2",
+        "TVOC"
+    ],
+    "childDirs": [
+        "2022"
+    ],
+    "childDirsUnit": "年",
+    "dirUnit": "历年",
+    "xUnit": "年",
+    "dataNum": 1,
+    "mean": [
+        400.0,
+        800.0
+    ],
+    "dataX": [
+        "2022"
+    ],
+    "dataY": [
+        [
+            400.0
+        ],
+        [
+            800.0
+        ]
+    ]
+}
