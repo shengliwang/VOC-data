@@ -44,6 +44,7 @@ then
     exit
 fi
 
+git pull
 git add data/
 git commit -m "python3 generate.py $CMDLINE"
 git push origin main
