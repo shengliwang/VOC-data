@@ -184,6 +184,8 @@ def calculate_mean_on_subdirs(parentdir:str):
         mean[1] = (mean[1]*num + mean1[1]*num1) / (num + num1)
         num += num1
         subdirs.append(dir)
+        
+    subdirs.sort()
     return subdirs, num, mean
 
 
