@@ -31,9 +31,9 @@ echo "co2 is $CO2 TVOC is $TVOC"
 CMDLINE="--tvoc ${TVOC}ppb --co2 ${CO2}ppm --time ${TIME} --dir ./data"
 echo $CMDLINE
 
+
+git pull
 python3 generate.py $CMDLINE
-
-
 
 ## 更新数据到github上
 git status | grep "data"
@@ -44,7 +44,6 @@ then
     exit
 fi
 
-git pull
 git add data/
 git commit -m "python3 generate.py $CMDLINE"
 git push origin main
