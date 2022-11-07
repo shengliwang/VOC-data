@@ -195,6 +195,7 @@ def genrate_data_on_subdirs(parentdir:str):
         subdirs.append(dir)
 
     # 是否应该先按时间排序？ todo
+    subdirs.sort()
     dataX = []
     dataY = [[], []]
     for dir in subdirs:
