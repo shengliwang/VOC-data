@@ -10,7 +10,7 @@ import numpy as np
 template_json = {
     "label": "3#217寝室检测",# 在html上显示为图表的description
     "dataYNum": 2,          # 纵轴 数据的数目
-    "yUnit": "ppb or ppm",  # 纵轴 数据的单位
+    "yUnit": "ppb or ppm*10",  # 纵轴 数据的单位(ppm*100显示)
     "descriptions": [       # 纵轴 数据的描述，两个数据分别为co2和tvoc
         "CO2",              # 图表上显示为数据的描述
         "TVOC"
@@ -55,7 +55,7 @@ def myarg_parse(args):
     global time_year, time_month, time_day, time_hour, time_minute
     global dir
     lst = re.match('(\d+)(.*)', args.co2)
-    co2 = int(lst.group(1))
+    co2 = int(lst.group(1)) / 10
     co2_unit = lst.group(2)
 
     lst = re.match('(\d+)(.*)', args.tvoc)
