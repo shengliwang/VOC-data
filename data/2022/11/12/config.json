@@ -1,0 +1,29 @@
+{
+    "label": "3#217寝室检测 2022年11月12日",
+    "dataYNum": 2,
+    "yUnit": "ppb or ppm*10",
+    "descriptions": [
+        "CO2",
+        "TVOC"
+    ],
+    "childDirs": [],
+    "childDirsUnit": "",
+    "dirUnit": "本日(12号)",
+    "xUnit": "小时",
+    "dataX": [
+        15.5
+    ],
+    "dataY": [
+        [
+            67
+        ],
+        [
+            0
+        ]
+    ],
+    "dataNum": 1,
+    "mean": [
+        67.0,
+        0.0
+    ]
+}
