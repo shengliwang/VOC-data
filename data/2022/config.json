@@ -12,9 +12,9 @@
     "childDirsUnit": "月",
     "dirUnit": "本年(2022年)",
     "xUnit": "月",
-    "dataNum": 2,
+    "dataNum": 3,
     "mean": [
-        53.5,
+        57.0,
         0.0
     ],
     "dataX": [
@@ -22,7 +22,7 @@
     ],
     "dataY": [
         [
-            53.5
+            57.0
         ],
         [
             0.0
