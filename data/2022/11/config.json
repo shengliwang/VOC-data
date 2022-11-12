@@ -12,9 +12,9 @@
     "childDirsUnit": "日",
     "dirUnit": "本月(11月)",
     "xUnit": "日",
-    "dataNum": 1,
+    "dataNum": 2,
     "mean": [
-        67.0,
+        53.5,
         0.0
     ],
     "dataX": [
@@ -22,7 +22,7 @@
     ],
     "dataY": [
         [
-            67.0
+            53.5
         ],
         [
             0.0
