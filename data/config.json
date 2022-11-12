@@ -12,9 +12,9 @@
     "childDirsUnit": "年",
     "dirUnit": "历年",
     "xUnit": "年",
-    "dataNum": 5,
+    "dataNum": 6,
     "mean": [
-        61.4,
+        62.0,
         0.0
     ],
     "dataX": [
@@ -22,7 +22,7 @@
     ],
     "dataY": [
         [
-            61.4
+            62.0
         ],
         [
             0.0
